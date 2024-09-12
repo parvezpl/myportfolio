@@ -1,12 +1,14 @@
-import { useState } from 'react'
+
 import './App.css'
+import CenterBox from './componnents/home/center_box';
+import { Nav } from './componnents/home/nav';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>get start</div>
+      <Nav/>
+      <CenterBox/>
     </>
   )
 }
