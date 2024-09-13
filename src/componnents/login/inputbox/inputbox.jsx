@@ -10,7 +10,7 @@ export function Inputbox ({
     console.log(props)
     return (
         <>
-        <div >input box</div>
+        <div >inpu t box</div>
             <input type="text" className='inputbox' placeholder={""} />
         </>
     )
