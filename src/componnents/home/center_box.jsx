@@ -1,9 +1,11 @@
 import React from 'react'
 import './centerbox.css'
 import homeimg from './../../assets/home.jpg'
+import { Inputbox } from '../login/inputbox/inputbox'
 export default function CenterBox(props) {
     
-
+    const placeholder ="user name"
+    const news ="new value"
     return (
         <>
             <div className='main-page-box'>
@@ -22,8 +24,9 @@ export default function CenterBox(props) {
                 </div>
                 <div className='rightbox'>
                     <img src={homeimg} alt="" className='img' />
-                </div>
+                </div> hello
             </div>
+                {/* <Inputbox placeholder={placeholder} news={news}/> */}
         </>
     )
 }
