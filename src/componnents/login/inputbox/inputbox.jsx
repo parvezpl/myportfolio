@@ -2,16 +2,17 @@ import React from 'react'
 import "./inputbox.css"
 
 export function Inputbox ({
-    placeholder="apple",
-    children
-},props
-) {
-    
-    console.log(props)
+    placeholder,
+}) {
     return (
         <>
-        <div >inpu t box</div>
-            <input type="text" className='inputbox' placeholder={""} />
+            <input type="text" className='inputbox' placeholder={placeholder} />
         </>
     )
+}
+
+export function LoginButton ({
+    placeholder
+}){
+    return <button className='loginbutton' >{placeholder}</button>
 }

@@ -7,3 +7,15 @@
     background: #ebebeb;
     font-size: 33px;
 }
+
+
+.loginbutton {
+    border-radius: 19px;
+    width: 155px;
+    height: 44px;
+    background: #ddcf12;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 27px;
+    color: #000;
+}
