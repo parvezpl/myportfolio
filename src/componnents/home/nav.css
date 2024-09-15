@@ -12,9 +12,13 @@
     padding-inline: 1rem;
 }
 
-.navi-name {}
+.navi-name {
+    display: flex;
+    flex: 1;
+}
 
 .navi-name span {
+    flex: 1;
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 42px;
@@ -25,24 +29,29 @@
 .navi-end {
     display: flex;
     align-items: center;
+    justify-content: end;
+    flex: 3 3;
 }
 
 .navi-option {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap:10px;
+    /* justify-content: space-between; */
     /* flex-grow: inherit; */
-    margin-inline: 4px;
-    width: 552px;
+    /* margin-inline: 4px; */
+    /* width: 552px; */
     height: 45px;
     padding: 20px;
+    flex: 0 1 650px;
 }
 
-.navi-option span {
+.navi-option li {
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 20px;
     color: #fff;
+    flex:1 1 100px;
 }
 
 .navi-login {
@@ -53,6 +62,10 @@
     margin-left: 20px;
 }
 
+.navi-login :hover {
+    color: #b5d70a;
+    cursor: pointer;
+}
 
 /* ============================center box=====================================*/
 

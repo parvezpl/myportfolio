@@ -12,7 +12,8 @@ export function Inputbox ({
 }
 
 export function LoginButton ({
-    placeholder
+    placeholder,
+    type
 }){
-    return <button className='loginbutton' >{placeholder}</button>
+    return <button className='loginbutton' type={type} >{placeholder}</button>
 }

@@ -12,11 +12,16 @@
     flex-wrap: wrap-reverse;
 }
 
+.main-leftbox {
+    flex: 0 1 838px;
+}
+
 .leftbox {
-    width: 838px;
+    /* width: 838px; */
     height: 890px;
     display: flex;
     flex-direction: column;
+    flex: 0 1 838px
 }
 
 .textbox {
@@ -27,9 +32,9 @@
     /* background-color: #4e4848; */
     font-family: var(--font-family);
     height: 338px;
-    width: 820px;
+    /* width: 820px; */
     margin-top: 10rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 .textbox1 {
